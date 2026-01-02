@@ -8,6 +8,7 @@ export const useCounterStore = defineStore('counter', {
   state: (): CounterState => ({
     count: 0,
   }),
+
   actions: {
     increment() {
       this.count++;
@@ -15,9 +16,11 @@ export const useCounterStore = defineStore('counter', {
     decrement() {
       this.count--;
     },
-    getters: {
-      doubleCount(): number {
-        return this.count * 2;
-      }
+  },
+
+  getters: {
+    doubleCount(): number {
+      return this.count * 2;
+    },
   },
 });
