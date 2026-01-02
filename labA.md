@@ -38,6 +38,9 @@ Svar kort for deg selv før du starter:
 
 (Skriv gjerne stikkord her 👇)
 
+Pinia er ansvarlig for å håndtere tilstand, som en Vue-komponent kan bruke til å vise data og reagere på brukerinteraksjoner.
+Logikken skal ligge i Pinia, mens renderingen håndteres av Vue-komponenter.
+
 ---
 
 ## 1️⃣ Oppsett av prosjekt
