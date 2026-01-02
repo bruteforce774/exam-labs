@@ -147,6 +147,8 @@ Lag en getter:
 Tenk gjennom:
 - Hvorfor er dette en getter og ikke en metode?
 
+Viktig for reaktivitet og caching, analogt med computed properties i Vue.
+
 ---
 
 ## 4️⃣ Bruk store i én komponent
