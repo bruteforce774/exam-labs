@@ -212,8 +212,14 @@ fra `App.vue` til `CounterView.vue`
 Svar skriftlig (stikkord er nok):
 
 - Hva gjør denne arkitekturen lettere å teste?
+Trenger ikke å mocke Pinia, bare send inn props og sjekk emittede eventer. Kan teste komponent uten å sette opp store. Kan teste actions/gettere uten å rendre komponenter. Hver del kan isoleres.
+
 - Hva blir lettere når applikasjonen vokser?
+Komponenten kan gjenbrukes med flere datakilder, kan bruke flere instanser, refaktorering blir enklere (forandre kode i App), lettere å
+samarbeide med andre utviklere.
+
 - Hva minner dette om fra frameworkless-koden dere har sett før?
+Nærmere MVC-struktur, data flyter i en enkelt retning, unngår direkte mutasjon av state, eventdrevet.
 
 ---
 
