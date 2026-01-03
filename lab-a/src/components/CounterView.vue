@@ -1,6 +1,7 @@
 <script setup lang="ts">
     const props = defineProps<{
-        count: number
+        count: number,
+        doubleCount: number
     }>()
 
     const emits = defineEmits<{
@@ -11,7 +12,7 @@
 
 <template>
   <div>
-    count: {{ count }}<br />
+    count: {{ count }}, doubleCount: {{ doubleCount }}<br />
     <button @click="emits('increment')">Increment</button>
     <button @click="emits('decrement')">Decrement</button>
   </div>
