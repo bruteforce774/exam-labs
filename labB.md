@@ -29,10 +29,13 @@ Etter denne laben skal du kunne:
 Tenk gjennom:
 
 - Hvilken state *må* lagres eksplisitt?
-- Hvilken state kan *beregnes*?
-- Hvorfor er avledet state farlig å lagre direkte?
+Selve gjenstandene
 
-Noter stikkord her 👇
+- Hvilken state kan *beregnes*?
+Summer, antall, verdies som avledes fra andre
+
+- Hvorfor er avledet state farlig å lagre direkte?
+Mulige problemer med synkronisering
 
 ---
 
